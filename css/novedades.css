@@ -1,0 +1,72 @@
+/*estilos de toda la pagina de novedades*/
+.animated-title {
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    text-shadow: 0 0 5px aliceblue;
+   
+  }
+  
+  
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    width: 23%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+
+  .card img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .card-info {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    padding: 10px;
+    background-color:aqua;
+    color: #000000;
+  }
+  .card-info:hover {
+    color: rgb(125, 15, 227);
+  }
+  
+  .card-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+  }
+  
+  .card-info p {
+    margin: 0;
+  }
+  /*responsive de todos los productos*/
+  @media screen and (max-width: 768px) {
+    .animated-title {
+      font-size: 36px;
+    }
+    
+    .card {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .animated-title {
+      font-size: 36px;
+    }
+    
+    .card {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,99 @@
+/*Estilos Css todos los productos pagina principal*/
+
+.productos{
+    padding-bottom: 16px;
+}
+.productos_principal{
+    margin: 0 auto;
+    padding: 16px 10%;
+}
+.title_categoria{
+    box-shadow: 0px 0px 20px aqua;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: aqua;
+}
+.btn_todo{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: aqua;
+}
+.productos_descripcion{ 
+    margin: 0 auto;
+    padding: 32px 10%;
+}
+.contenedor img{
+    box-shadow: 5px 0px 5px aqua;
+    width: 100%;
+    height: 174px;
+}
+.nombre_producto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: aliceblue;
+    /*align-self: stretch;*/
+}
+.precio_producto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: aliceblue;
+    align-self: stretch;
+}
+.link_producto{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+@media screen and (max-width:1280px){
+    .productos_principal{
+        padding: 16px 5%;
+    }
+    .productos_descripcion{
+        padding: 32px 5%;
+    }
+}
+/*
+@media screen and (max-width:1024px) {
+    .block_1{
+        display: none;
+    }
+}*/
+@media screen and (max-width:768px) {
+    .productos .productos_descripcion, .consolas .consolas_descripcion, .diversos .diversos_descripcion {
+        flex-wrap: wrap;
+    }
+    .contenedor img{
+        width: 152px;
+        height: 174px;
+    }
+}
+@media screen and (max-width:360px) {
+    .title_categoria{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    
+    
+    
+    .productos_descripcion {
+        padding: 0 5%;
+    }
+}

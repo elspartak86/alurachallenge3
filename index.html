@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: OldSchoolVideoGames :: E-commerce</title>
+    <link rel="shortcut icon" href="./img/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/novedades.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/accesorios.css">
+    <link rel="stylesheet" href="./css/games.css">
+    <link rel="stylesheet" href="./css/rodapie.css">
+    
+</head>
+<body>
+     <!-- Cabezera principal -->
+    <header class="cabezera">
+        <section class="cabezera_principal">
+            <div class="logo">
+                <div class="cabezera_componentes">
+                    <a href="./index.html">                    
+                    <img src="img/old school video games.png " alt="AluraGeek" width="50%" height="80%">
+                    </a>
+                     <!-- Barra de busqueda -->
+                    <div class="wrapper">
+                        <div class="search-input">
+                          <a href="" target="_blank" hidden></a>
+                          <input type="text" placeholder="Busqueda..">
+                          <div class="autocom-box">
+                            <!-- here list are inserted from javascript -->
+                          </div>
+                          <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                      </div>
+                       <!-- Boton para el login -->
+                    <button class="btn_login" id="btnLogin">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </section>
+         <!-- Banner y boton que lleva a las novedades -->
+        <section class="banner_promocional">
+            <div class="banner_promocional__text">
+                <h1 class="title_promocional">Abril loco en ofertas</h1>
+                <p class="descripcion_promocional">Productos selecionados con 25% de descuento</p>
+                <button class="btn_promocional" id="btnConsolas" onclick="window.location.href = 'novedades.html';">
+                    Novedades
+                </button>
+            </div>    
+        </section>
+    </header>
+     <!-- Presentación de los productos de la pagina principal-->
+    <main class="cuerpo_principal">
+        <section class="productos">
+            <div class="productos_principal">
+                <h2 class="title_categoria">Consolas</h2>
+                <a class="btn_todo" href="./productos_all.html">Ver todo →</a>
+            </div>
+             <!-- Consolas -->
+            <div class="productos_descripcion" data-producto-sw>
+                    <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/advance.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Game Boy Advance</li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/atari.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Atari 2600</li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/nes.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">NES</li>
+                            <li class="precio_producto">$ 1500,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/snes.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">SNES</li>
+                            <li class="precio_producto">$ 1800,00</li>
+                            <li>Ver producto</li>
+                        </ul>  
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_2">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/ps2.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">PS2</li>
+                            <li class="precio_producto">$ 1700,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_1">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/consolas/gbc.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Game Boy Color</li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+         <!-- Accesorios -->
+        <section class="consolas" id="consolas_section">
+            <div class="consolas_principal">
+                <h2 class="title_categoria">Accesorios</h2>
+                <a class="btn_todo" href="./productos_all.html">Ver todo →</a>
+            </div>
+            <div class="consolas_descripcion" data-producto-cl>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/xbox.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Control XBOX ONE</li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/Wii_U_Pro.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Control WII U Pro</li>
+                            <li class="precio_producto">$ 600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/ps4.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Control PS4</li>
+                            <li class="precio_producto">$ 600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/playstation.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Control PS5</li>
+                            <li class="precio_producto">$ 1900,00</li>
+                            <li>Ver producto</li>
+                        </ul>  
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_2">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/diadema.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Diadema BLU</li>
+                            <li class="precio_producto">$ 500,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_1">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/accesorios/external-hard-drive.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Disco Duro Externo 4TB</li>
+                            <li class="precio_producto">$ 2200,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+            </div>
+                  <!--Lista de Productos Games-->
+        </section>
+        <section class="diversos">
+            <div class="diversos_principal">
+                <h2 class="title_categoria">Games</h2>
+                <a class="btn_todo" href="./productos_all.html">Ver todo →</a>
+            </div>
+               <!--Lista de Productos Diversos-->
+            <div class="diversos_descripcion" data-producto-dv>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/mario3.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Mario Bros 3 </li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/final9.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Final Fantasy IX </li>
+                            <li class="precio_producto">$ 1600,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/golden.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Golden Eye 007 </li>
+                            <li class="precio_producto">$ 1100,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_principal">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/pokemon.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Pokémon Red </li>
+                            <li class="precio_producto">$ 1100,00</li>
+                            <li>Ver producto</li>
+                        </ul>  
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_2">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/resident.jpg" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">Resident Evil N64</li>
+                            <li class="precio_producto">$ 1200,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor block_1">
+                    <a class="link_producto" href="./descripcion_productos.html">
+                    <img src="img/juegos/ocarine.png" alt="">
+                    <div>
+                        <ul>
+                            <li class="nombre_producto">The Legend of Zelda Ocarina Of Time</li>
+                            <li class="precio_producto">$ 1800,00</li>
+                            <li>Ver producto</li>
+                        </ul>   
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section> 
+    </main>
+       <!--Footer-->
+    <footer>
+        <section class="rodapie">
+            <div class="menu_contacto">
+                <div class="menu_contacto__box">
+                    <div class="menu_contacto__contenido">
+                        <a href="./index.html">                    
+                            <img src="img/old school video games.png" alt="Old School Video Games"width="50%" height="80%">
+                        </a>
+                    </div>
+                    <ul class="main">
+                            <li class="main_contenedor"><a class="main_link" href="#">Quienes somos</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Política de privacidad</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Te compramos tus juegos</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div> 
+                <div class="contacto">
+                    <form action="#" class="contacto_form">
+                        <fieldset>
+                            <legend class="title_contacto">Hable con nosotros</legend>
+                            <label for="nombre"></label>
+                            <input class="input_nombre" type="text" placeholder="Nombre" required data-tipo="nombre" pattern="[\s\S]{4,40}">
+                            <label for="mensaje"></label>
+                            <textarea class="input_mensaje" type="text" placeholder="Escribe tu mensaje" required data-tipo="mensaje" pattern="[\s\S]{5,120}"></textarea>    
+                        </fieldset>
+                        <button class="btn_contacto">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>                
+        </section>
+        <div class="rodapie_end">
+            <h4 class="desarrollo">All right reserved  © OLD SCHOOL VIDEOGAMES 2023
+                <br>
+                Privacy Policy  Terms and conditions</h4>  
+        </div>
+    </footer>
+<script src="./js/suggestions.js"></script>
+<script src="./js/botoneras.js"></script>
+<script src="./js/search.js"></script>
+<script type="module" src="./js/validacion_rodapie.js"></script>
+</body>
+</html>
